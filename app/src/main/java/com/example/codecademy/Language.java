@@ -26,6 +26,8 @@ public class Language {
         lang.getInfo();
         Mayan mayan = new Mayan("Ki'che'",2330000);
         mayan.getInfo();
+        SinoTibetan st = new SinoTibetan("Mandarin Chinese",150000000);
+        st.getInfo();
 
     }
 }
