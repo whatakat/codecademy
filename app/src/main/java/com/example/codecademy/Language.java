@@ -24,5 +24,8 @@ public class Language {
     public static void main(String[] args){
         Language lang = new Language("English",2000000,"London","subject-verb-object");
         lang.getInfo();
+        Mayan mayan = new Mayan("Ki'che'",2330000);
+        mayan.getInfo();
+
     }
 }
